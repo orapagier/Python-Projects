@@ -100,7 +100,7 @@ def open_selected(event):
             
 def update_background():
     global resized_bg_image
-    bg_image = Image.open(r"_internal/Data\bg.png")  # Replace with your image file path
+    bg_image = Image.open(r"_internal/Data\bg.png")  
     resized_bg_image = bg_image.resize((root.winfo_width(), root.winfo_height()), Image.LANCZOS)
     bg_image_tk = ImageTk.PhotoImage(resized_bg_image)
     background_label.config(image=bg_image_tk)
