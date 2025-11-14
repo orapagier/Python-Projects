@@ -19,7 +19,6 @@ import shutil
 import gc
 import atexit
 
-
 class QRScannerAPI:
     def __init__(self):
         self.data = []
@@ -920,3 +919,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
